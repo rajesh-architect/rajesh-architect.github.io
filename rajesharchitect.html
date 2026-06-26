@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>S. Rajesh — Architecture Student | B.Arch Portfolio</title>
+<meta name="description" content="S. Rajesh is a 4th-year B.Arch student at Mohamed Sathak Engineering College, Tamil Nadu. GRIHA Trophy shortlist, NASA Convention presenter, Ethos Empowers award winner. Portfolio of competition and semester projects.">
+<meta name="keywords" content="S Rajesh architect, Rajesh architecture, Mohamed Sathak Engineering College architecture, GRIHA Trophy Monolithic Efficiency, NASA convention India architecture student">
+<meta name="author" content="S. Rajesh">
+<meta property="og:title" content="S. Rajesh — Architecture Portfolio">
+<meta property="og:description" content="B.Arch student portfolio — competition and semester architecture projects from Tamil Nadu, India.">
+<meta property="og:type" content="website">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "S. Rajesh",
+  "jobTitle": "Architecture Student (B.Arch)",
+  "alumniOf": "Mohamed Sathak Engineering College",
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "Tamil Nadu",
+    "addressCountry": "IN"
+  },
+  "award": [
+    "GRIHA Trophy Shortlist - 68th NASA Convention",
+    "Jury Commendation & Delhi Education Minister's Award - Ethos Empowers Urban Innovation Challenge",
+    "Top 50 India - GYPROC Design Competition"
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0E2238;
+    --blueprint:#163C5E;
+    --blueprint-mid:#1E4D78;
+    --line:#A9C6DE;
+    --paper:#F4F2EC;
+    --paper-dim:#E7E3D7;
+    --ochre:#D9A441;
+    --ochre-dim:#B5832E;
+    --text-dark:#16202A;
+    --text-mute:#52606D;
+    --font-display:'Big Shoulders Display', sans-serif;
+    --font-body:'Inter', sans-serif;
+    --font-mono:'IBM Plex Mono', monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--paper);
+    color:var(--text-dark);
+    font-family:var(--font-body);
+    line-height:1.5;
+  }
+  a{color:inherit;text-decoration:none;}
+  .wrap{max-width:1100px;margin:0 auto;padding:0 28px;}
+
+  /* ---------- Title block hero ---------- */
+  .titleblock{
+    background:var(--blueprint);
+    background-image:
+      repeating-linear-gradient(0deg, rgba(169,198,222,0.08) 0, rgba(169,198,222,0.08) 1px, transparent 1px, transparent 32px),
+      repeating-linear-gradient(90deg, rgba(169,198,222,0.08) 0, rgba(169,198,222,0.08) 1px, transparent 1px, transparent 32px);
+    color:#fff;
+    border-bottom:6px solid var(--ochre);
+    position:relative;
+  }
+  .crop{position:absolute;width:18px;height:18px;border:2px solid var(--line);opacity:.6;}
+  .crop.tl{top:14px;left:14px;border-right:none;border-bottom:none;}
+  .crop.tr{top:14px;right:14px;border-left:none;border-bottom:none;}
+  .crop.bl{bottom:14px;left:14px;border-right:none;border-top:none;}
+  .crop.br{bottom:14px;right:14px;border-left:none;border-top:none;}
+  .tb-top{
+    display:flex;justify-content:space-between;align-items:center;
+    font-family:var(--font-mono);font-size:12px;letter-spacing:.06em;
+    color:var(--line);padding:18px 0 0;
+  }
+  .hero-inner{padding:60px 0 50px;}
+  .eyebrow{
+    font-family:var(--font-mono);font-size:13px;letter-spacing:.18em;
+    color:var(--ochre);text-transform:uppercase;margin-bottom:18px;
+  }
+  h1.name{
+    font-family:var(--font-display);
+    font-weight:900;
+    font-size:clamp(48px,9vw,108px);
+    line-height:.92;
+    text-transform:uppercase;
+    letter-spacing:.01em;
+  }
+  .role{
+    font-family:var(--font-mono);
+    font-size:15px;color:var(--line);margin-top:14px;max-width:560px;
+  }
+  .tb-bottom{
+    margin-top:40px;
+    border-top:1px solid rgba(255,255,255,.25);
+    padding-top:16px;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:18px;
+    font-family:var(--font-mono);font-size:11px;color:var(--line);
+  }
+  .tb-bottom div span{display:block;color:#fff;font-size:13px;margin-top:4px;}
+
+  /* ---------- nav ---------- */
+  nav{
+    background:var(--ink);
+    position:sticky;top:0;z-index:10;
+  }
+  nav .wrap{display:flex;gap:28px;padding:14px 28px;overflow-x:auto;}
+  nav a{
+    font-family:var(--font-mono);font-size:12px;letter-spacing:.1em;
+    color:var(--line);text-transform:uppercase;white-space:nowrap;
+  }
+  nav a:hover{color:var(--ochre);}
+
+  /* ---------- sheet sections ---------- */
+  .sheet{padding:64px 0;border-bottom:1px solid var(--paper-dim);}
+  .sheet-head{
+    display:flex;align-items:baseline;gap:16px;margin-bottom:36px;
+  }
+  .sheet-num{
+    font-family:var(--font-mono);font-size:13px;color:var(--ochre-dim);
+    border:1px solid var(--ochre-dim);padding:3px 8px;border-radius:2px;
+  }
+  .sheet-head h2{
+    font-family:var(--font-display);font-weight:900;font-size:clamp(28px,4vw,42px);
+    text-transform:uppercase;color:var(--ink);
+  }
+  .lead{max-width:640px;color:var(--text-mute);font-size:16px;margin-bottom:8px;}
+
+  /* about */
+  .about-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:50px;align-items:start;}
+  @media(max-width:760px){.about-grid{grid-template-columns:1fr;}}
+  .about-grid p{color:var(--text-mute);margin-bottom:14px;font-size:16px;}
+  .stack-list{
+    font-family:var(--font-mono);font-size:13px;color:var(--text-mute);
+    display:flex;flex-wrap:wrap;gap:8px;margin-top:18px;
+  }
+  .stack-list span{border:1px solid var(--paper-dim);padding:5px 10px;border-radius:3px;}
+
+  /* projects */
+  .project{
+    display:grid;grid-template-columns:120px 1fr;gap:24px;
+    padding:26px 0;border-top:1px solid var(--paper-dim);
+  }
+  .project:first-of-type{border-top:none;}
+  @media(max-width:600px){.project{grid-template-columns:1fr;}}
+  .project .tag{
+    font-family:var(--font-mono);font-size:11px;color:var(--ochre-dim);
+    text-transform:uppercase;letter-spacing:.06em;
+  }
+  .project h3{
+    font-family:var(--font-display);font-weight:700;font-size:24px;color:var(--ink);
+    margin-bottom:8px;text-transform:uppercase;
+  }
+  .project p{color:var(--text-mute);font-size:15px;max-width:600px;}
+  .project .meta{
+    font-family:var(--font-mono);font-size:12px;color:var(--blueprint-mid);
+    margin-top:10px;
+  }
+
+  /* awards */
+  .awards{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;}
+  @media(max-width:700px){.awards{grid-template-columns:1fr;}}
+  .award-card{
+    border:1px solid var(--paper-dim);padding:20px;border-radius:3px;
+    border-left:3px solid var(--ochre);
+  }
+  .award-card .y{font-family:var(--font-mono);font-size:11px;color:var(--text-mute);}
+  .award-card h4{font-family:var(--font-display);font-weight:700;font-size:18px;margin:6px 0 4px;color:var(--ink);}
+  .award-card p{font-size:13.5px;color:var(--text-mute);}
+
+  /* contact / footer */
+  footer{
+    background:var(--ink);color:#fff;padding:60px 0 40px;
+  }
+  footer h2{
+    font-family:var(--font-display);font-weight:900;font-size:clamp(30px,5vw,52px);
+    text-transform:uppercase;margin-bottom:18px;
+  }
+  .contact-row{display:flex;gap:20px;flex-wrap:wrap;margin-top:24px;}
+  .btn{
+    font-family:var(--font-mono);font-size:13px;letter-spacing:.08em;text-transform:uppercase;
+    border:1px solid var(--line);padding:12px 22px;border-radius:2px;color:#fff;
+    transition:all .2s;
+  }
+  .btn.primary{background:var(--ochre);border-color:var(--ochre);color:var(--ink);}
+  .btn:hover{background:rgba(255,255,255,.08);}
+  .btn.primary:hover{background:var(--ochre-dim);}
+  .foot-meta{
+    margin-top:50px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;
+    font-family:var(--font-mono);font-size:11px;color:var(--line);
+    border-top:1px solid rgba(255,255,255,.15);padding-top:18px;
+  }
+  @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto;}}
+  a:focus-visible, .btn:focus-visible{outline:2px solid var(--ochre);outline-offset:2px;}
+</style>
+</head>
+<body>
+
+<header class="titleblock">
+  <span class="crop tl"></span><span class="crop tr"></span><span class="crop bl"></span><span class="crop br"></span>
+  <div class="wrap">
+    <div class="tb-top">
+      <span>SHEET A&#8209;00 / TITLE</span>
+      <span>RAMANATHAPURAM, TAMIL NADU, IN</span>
+    </div>
+    <div class="hero-inner">
+      <div class="eyebrow">Architecture Portfolio</div>
+      <h1 class="name">S. Rajesh</h1>
+      <p class="role">4th-Year B.Arch student, Mohamed Sathak Engineering College — designing climate-responsive, culturally grounded architecture across competitions and live pre-construction projects.</p>
+    </div>
+    <div class="tb-bottom">
+      <div>SCALE<span>NTS</span></div>
+      <div>DRAWN BY<span>S. Rajesh</span></div>
+      <div>STATUS<span>Seeking 5th-Yr Internship</span></div>
+      <div>REV<span>2026</span></div>
+    </div>
+  </div>
+</header>
+
+<nav>
+  <div class="wrap">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#awards">Awards</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<section class="sheet" id="about">
+  <div class="wrap">
+    <div class="sheet-head"><span class="sheet-num">A&#8209;01</span><h2>About</h2></div>
+    <div class="about-grid">
+      <div>
+        <p>I'm an architecture student from Tamil Nadu working at the intersection of climate-responsive design, structural efficiency, and regional cultural identity. My recent work spans a Mivan-construction high-density residential complex, a steel exhibition pavilion, and live pre-construction commissions in hospitality and residential typologies.</p>
+        <p>I presented my GRIHA Trophy-shortlisted project, <em>Monolithic Efficiency</em>, at the 68th NASA Annual Convention at Woxsen University, Hyderabad — validated through IES-VE climate simulation. I also lead peer workshops on using AI as a design communication tool, not a design generator.</p>
+        <div class="stack-list">
+          <span>AutoCAD</span><span>Revit</span><span>SketchUp</span><span>Photoshop</span><span>Illustrator</span><span>IES-VE</span><span>Blender</span>
+        </div>
+      </div>
+      <div>
+        <p style="font-family:var(--font-mono);font-size:12px;color:var(--text-mute);text-transform:uppercase;letter-spacing:.05em;margin-bottom:10px;">Currently</p>
+        <p>Building a firm-ready portfolio and applying for 5th-year internships, with Sanjay Puri Architects as a primary target.</p>
+        <p style="margin-top:20px;font-family:var(--font-mono);font-size:12px;color:var(--text-mute);text-transform:uppercase;letter-spacing:.05em;">Guide</p>
+        <p>Ms. Benasir — Mohamed Sathak Engineering College</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sheet" id="projects">
+  <div class="wrap">
+    <div class="sheet-head"><span class="sheet-num">A&#8209;02</span><h2>Projects</h2></div>
+    <p class="lead">Competition entries, semester design, and live pre-construction work.</p>
+
+    <div class="project">
+      <div class="tag">Competition</div>
+      <div>
+        <h3>Monolithic Efficiency</h3>
+        <p>A climate-responsive, high-density residential complex in Gurugram using Mivan (monolithic RCC) construction, validated through IES-VE simulation.</p>
+        <div class="meta">GRIHA Trophy Shortlist — 68th NASA Annual Convention, Woxsen University</div>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="tag">Live Project</div>
+      <div>
+        <h3>Linga Arena</h3>
+        <p>Mixed-use hospitality development in Paramakudi — concept development through elevation design, currently in pre-construction.</p>
+        <div class="meta">Intern Contributor</div>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="tag">Live Project</div>
+      <div>
+        <h3>Samm Residence</h3>
+        <p>Residential pre-construction project — design development and documentation.</p>
+        <div class="meta">Intern Contributor</div>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="tag">Built Work</div>
+      <div>
+        <h3>Pages of Progress</h3>
+        <p>30 m&sup2; steel exhibition pavilion — 12 radial RHS pipes connected to a central RCC column, with a zero-wastage pipe-cutting strategy and solar-oriented form.</p>
+        <div class="meta">Built on campus, Mohamed Sathak Engineering College</div>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="tag">Competition</div>
+      <div>
+        <h3>Children's Hospital</h3>
+        <p>Healthcare facility design submitted to a national design competition.</p>
+        <div class="meta">Top 50, India — GYPROC Design Competition</div>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="tag">Semester</div>
+      <div>
+        <h3>Urban Entertainment Center</h3>
+        <p>Multi-floor entertainment complex rooted in Tamil cultural motifs, modeled in Revit with custom Oloid-form geometry developed via Blender Python scripting.</p>
+        <div class="meta">Semester Design Studio</div>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="tag">Symposium</div>
+      <div>
+        <h3>Kalasalingam Symposium Project</h3>
+        <p>Award-winning entry presented at the Kalasalingam Symposium.</p>
+        <div class="meta">Award Recipient</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sheet" id="awards">
+  <div class="wrap">
+    <div class="sheet-head"><span class="sheet-num">A&#8209;03</span><h2>Awards &amp; Recognition</h2></div>
+    <div class="awards">
+      <div class="award-card">
+        <div class="y">2026</div>
+        <h4>Ethos Empowers — Urban Innovation Challenge</h4>
+        <p>Jury Commendation &amp; Delhi Education Minister's Award, Sustainable Theme.</p>
+      </div>
+      <div class="award-card">
+        <div class="y">2026</div>
+        <h4>GRIHA Trophy Shortlist</h4>
+        <p>68th NASA Annual Convention, Woxsen University, Hyderabad.</p>
+      </div>
+      <div class="award-card">
+        <div class="y">—</div>
+        <h4>GYPROC Design Competition</h4>
+        <p>Top 50, India — Children's Hospital design.</p>
+      </div>
+      <div class="award-card">
+        <div class="y">—</div>
+        <h4>NIT Fulcrum &amp; Kalasalingam Symposium</h4>
+        <p>Award recipient across both symposiums.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="wrap">
+    <h2>Let's talk</h2>
+    <p style="color:var(--line);max-width:480px;">Open to 5th-year internship opportunities and design collaborations.</p>
+    <div class="contact-row">
+      <a class="btn primary" href="https://www.linkedin.com/in/rajesh-architect-0b57462a9" target="_blank" rel="noopener">View LinkedIn ↗</a>
+      <a class="btn" href="mailto:studyrajesh041@gmail.com">Email Me</a>
+    </div>
+    <div class="foot-meta">
+      <span>S. RAJESH — ARCHITECTURE PORTFOLIO</span>
+      <span>MOHAMED SATHAK ENGINEERING COLLEGE, RAMANATHAPURAM</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
